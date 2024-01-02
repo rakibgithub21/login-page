@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background:url(Image/bg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.wraper{
+    background-color: transparent;
+    width: 450px;
+    color: #fff;
+    padding: 50px 30px;
+    border-radius: 10px;
+    border: 2px solid rgba(170, 159, 159, 0.555);
+    backdrop-filter: blur(10px);
+}
+.wraper h1{
+    text-align: center;
+    font-size: 36px;
+}
+
+.wraper .input-box{
+    width: 100%;
+    height: 40px;
+    margin: 30px 0;
+    position: relative;
+}
+
+.input-box input{
+    height: 100%;
+    width: 100%;
+    border-radius: 45px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border: 3px solid rgba(255,255,255,.2);
+    padding: 20px 35px 20px 15px;
+    color: #fff;
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 35%;
+}
+
+.input-box input::placeholder{
+    color: #fff;
+    font-size: 16;
+    font-weight: 100;
+}
+.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remember-forgot label input{
+    accent-color: rgb(255, 255, 255);
+    margin-right: 4px;
+}
+
+.remember-forgot a{
+    text-decoration: none;
+    color: white;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+.wraper .btn{
+    width: 100%;
+    height: 40px;
+    border-radius: 45px;
+    border: none;
+    margin: 20px 0;
+    font-size: 16px;
+    box-shadow: 0 0 10px;
+}
+
+.btn:hover{
+    background-color: transparent;
+}
+
+.register-link p{
+    text-align: center;
+}
+.register-link p a{
+    text-decoration: none;
+    font-weight:500;
+    color: #fff;
+}
+.register-link a:hover{
+    text-decoration: underline;
+}
